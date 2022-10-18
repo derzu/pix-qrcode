@@ -1,5 +1,5 @@
 # pix-qrcode
-PIX (Brazilian) QRCode Generator using JavaScript
+PIX (Brazilian) Static QRCode Generator using JavaScript
 
 **Example:**
 
