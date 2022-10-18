@@ -1,2 +1,6 @@
 # pix-qrcode
-PIX (Brazilian) QRCode using JavaScript
+PIX (Brazilian) QRCode Generator using JavaScript
+
+**Example:**
+
+![Print Screen:](print.jpßg)
