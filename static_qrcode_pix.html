@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIX Static QR Code</title>
+    <link rel="stylesheet" href="pix.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+    <script src="pix.js"></script>
+</head>
+<body>
+    <div id="dv_ct" class="dv_ct">
+        <div class="dv_ct_2">    
+            <div class="ct_valor_receber">
+                <div class="dv_comprar">
+                    <span class="tx_3">Chave (sem pontos ou traços):</span>
+                    <input id="in_key" type="text" style="width: 100%"></input>
+                    <span class="tx_3">Valor:</span>
+                    <input id="in_value" type="number" style="width: 100%" value="100.13"></input>
+                    <div class="dv_ct" onclick="showQrCode()">
+                        <img id="im_qrcode" src="" class="im_moeda"/>
+                        <span class="tx_3">PAGAR COM PIX</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ct_qrcode" id="ct_qrcode">
+                <div class="dv_copiacola" onclick="copyClipboard()">
+                    <span class="tx_5">PIX copia e cola:&nbsp;</span>
+                    <img id="im_copia" src="" class="im_moeda"/>
+                </div>
+                <span class="tx_4" id="tx_val_qrcode">qrcodetext</span>
+                
+                <span class="tx_5">PIX QR Code:</span>
+                <canvas id="qrcode" class="cv"></canvas>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
