@@ -3,4 +3,4 @@ PIX (Brazilian) QRCode Generator using JavaScript
 
 **Example:**
 
-![Print Screen:](print.jpßg)
+![Print Screen:](print.jpg)
